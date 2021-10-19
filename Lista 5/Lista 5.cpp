@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    string vetnome[4], nomemaior, nomemenor, nome;
+    string vetnome[4], nomemaior, nomemenor, nome, aprp;
     float n1[4], n2[4], nes[4], mf[4], maiorm=0, menorm=0, mediageral=0;
     int ap[4], i, pvmaior=0, pvmenor=0, contap=0, contrp=0;
 
@@ -27,12 +27,14 @@ int main(){
             cout << "O aluno " << vetnome[i] << " foi reprovado com uma media de: " << mf[i] << endl;
             contrp++;
             mediageral = mediageral + mf[i];
+            aprp = "Reprovado";
         }
         else
         {
             cout << "O aluno " << vetnome[i] << " foi aprovado com uma media de: " << mf[i] << endl;
             contap++;
             mediageral = mediageral + mf[i];
+            aprp = "Aprovado";
         }
         if (maiorm<mf[i])
         {
@@ -49,7 +51,7 @@ int main(){
 
     }
 
-    mediageral = (mediageral / 5);
+    mediageral = (mediageral / 4);
 
     cout << "O aluno com a maior media foi: " << nomemaior << " Localizado no numero: " << pvmaior << endl;
     cout << "O aluno com a menor media foi: " << nomemenor << " Localizado no numero: " << pvmenor << endl;
@@ -60,18 +62,12 @@ int main(){
     cout << "Procure o nome de outro aluno" << endl;
     cin >> nome;
 
-    for (i = 0; i <=4; i++)
-    {
-        if (nome==vetnome[i]){
-            cout << "O aluno " << nome << " Possui uma media final de: " << mf[i] << endl;
-            i = 5;
-        }
-        else
-        {
-            cout << "O aluno não se encontra no banco de dados." << endl;
-            i = 5;
-        }
+    for (i = 0; i <= 3; i++) {
 
+        if (vetnome[i] == nome) {
+            cout << "O aluno " << vetnome[i] << " Possui uma media final de: " << mf[i] << " e foi " << aprp << endl;
+            i = 4;
+        }
     }
     return 0;
 }
