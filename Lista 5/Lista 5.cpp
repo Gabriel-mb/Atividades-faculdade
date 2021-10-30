@@ -68,6 +68,7 @@ int main(){
             cout << "O aluno " << vetnome[i] << " Possui uma media final de: " << mf[i] << " e foi " << aprp << endl;
             i = 4;
         }
+
     }
     return 0;
 }
