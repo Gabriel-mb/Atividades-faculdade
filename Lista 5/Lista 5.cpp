@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     string vetnome[4], nomemaior, nomemenor, nome, aprp;
     float n1[4], n2[4], nes[4], mf[4], maiorm=0, menorm=0, mediageral=0;
-    int ap[4], i, pvmaior=0, pvmenor=0, contap=0, contrp=0;
+    int i, pvmaior=0, pvmenor=0, contap=0, contrp=0;
 
     for (i = 0; i <=3; i++)
     {
