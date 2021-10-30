@@ -1,0 +1,21 @@
+Leia em 4 vetores distintos: O nome do aluno, a nota da n1, a nota da n2 e a nota do Exame
+Semestral. O algoritmo deve:
+
+1) Calcular em um 5º vetor média final do aluno, sabendo que o peso das notas são: N1= 20%,
+N2= 35% e Exame Semestral= 45%.
+
+2) Calcular em um 6º vetor se o aluno está aprovado ou reprovado, sabendo que a média final
+de aprovação é 5.0.
+
+3) Permitir que se possa fazer uma pesquisa pelo nome do aluno e retornar dessa pesquisa: o
+nome do aluno, a sua média final e se o aluno está aprovado ou reprovado.
+
+4) Retorne: O nome do aluno que apresentou a maior média. Desconsidere que haverá médias
+iguais. Registre também a posição dentro do vetor onde se encontra esse aluno.
+
+5) Retorne: nome do aluno que apresentou a menor média. Desconsidere média iguais.
+Registre também a posição dentro do vetor onde se encontra esse aluno.
+
+6) Retorne: A quantidade de alunos aprovados e reprovados.
+
+7) Retorne: A média geral da turma.
