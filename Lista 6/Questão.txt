@@ -1,0 +1,32 @@
+Questão 7. Faça um algoritmo que leia:
+
+. Uma matriz 10 x 3: Assentos Esquerda
+. Uma matriz de 10 x 4: Assentos do Meio
+. Uma matriz de 10 x 3: Assentos da Direita
+
+Essas matrizes representam a estrutura das poltronas de um avião.
+O algoritmo deverá fazer um sistema para vender os bilhetes para os usuários.
+O sistema deve perguntar aos usuários:
+
+1. Qual o local do assento deseja sentar: Esquerda, meio ou Direita:
+(Essa resposta te indica a matriz que você vai marcar)
+
+2. Qual a fila deseja sentar?
+
+3. E qual a cadeira: 1, 2 ou 3?
+(Essas duas respostas te indicam a cadeira que você vai marcar).
+
+. Você deve primeiro verificar se a cadeira está vazia, zere as matrizes antes, pois locais com 0 indicam
+cadeiras vazias. Se o assento estiver disponível registre 1 no assento solicitado que indicará que ele
+está vendido/indisponível, se estiver indisponível retorne para o usuário que está indisponível e solicite
+que ele informe outro assento.
+
+. Ao terminar a venda do bilhete pergunte se deseja comprar outro assento. Pergunte se ele deseja
+comprar outro bilhete e faça o processo novamente.
+
+. Você irá fazer a venda do dia. Então ao algoritmo será encerrado pelo usuário. 
+Quando encerrar o algoritmo, retorne:
+
+a) Quantos assentos foram vendidos?
+b) Quantos assentos não foram vendidos?
+c) Quantos assentos foram vendidos em cadeiras que dão para o corredor?

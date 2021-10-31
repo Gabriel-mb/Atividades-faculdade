@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-	int i, j, matesq[3][3], matmeio[3][3], matdirei[3][3], local = 0, cad, fila, cont = 0, sn, final, nvendidos, contcorredor=0;
+	int i, j, matesq[10][3], matmeio[10][3], matdirei[10][3], local = 0, cad, fila, cont = 0, sn, final, nvendidos, contcorredor=0;
 
 	for (i = 0; i <= 89; i++)
 	{
@@ -21,7 +21,7 @@ int main() {
 
 		if (local == 1)
 		{
-			for (i = 0; i <= 2; i++)
+			for (i = 0; i <= 9; i++)
 			{
 				for (j = 0; j <= 2; j++)
 				{
@@ -48,7 +48,7 @@ int main() {
 
 		if (local == 2)
 		{
-			for (i = 0; i <= 2; i++)
+			for (i = 0; i <= 9; i++)
 			{
 				for (j = 0; j <= 2; j++)
 				{
@@ -74,7 +74,7 @@ int main() {
 		}
 		if (local == 3)
 		{
-			for (i = 0; i <= 2; i++)
+			for (i = 0; i <= 9; i++)
 			{
 				for (j = 0; j <= 2; j++)
 				{
